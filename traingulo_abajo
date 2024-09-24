@@ -1,0 +1,8 @@
+def triangulo_abajo():
+  n_filas=int(input("¿De qué tamaño quieres el triangulo (1-10)? "))
+  for filas in range(n_filas,1,-1):
+    for col in range(filas,1,-1):
+      print('* ',end='')
+    print(" ")
+
+triangulo_abajo()
